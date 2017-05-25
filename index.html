@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Rotten Tomatoes</h1>
+
+      <form id="add-movie">
+        <div id="movie-title">
+          <label for="title">Movie Title</label>
+          <input type="text" name="movie_title" id="title">
+        </div>
+
+        <div id="release-year">
+          <label for="year">Year of Release</label>
+          <input type="number" name="release_year" id="year">
+        </div>
+
+        <div id="user-score">
+          <label for="score">Score (Out of 5 Stars)</label>
+          <input type="number" name="user_score" id="score">
+        </div>
+
+        <div class="genre">
+          <label for="genre">Genre</label>
+          <input type="text" name="genre" id="genre">
+        </div>
+
+        <div class="director">
+          <label for="director">Director(s)</label>
+          <input type="text" name="director" id="director">
+        </div>
+      </form>
+
+      <h2>Top Movie Sorter</h2>
+      <table>
+        <thead>
+          <th>Film Title</th>
+          <th>Release Year</th>
+          <th>Score</th>
+          <th>Genre</th>
+          <th>Director</th>
+        </thead>
+
+        <tbody>
+          <tr>
+            <th></th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>  
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
