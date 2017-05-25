@@ -1,0 +1,99 @@
+@font-face{
+  font-family: "Bodonitown";
+
+  src: url('../fonts/bodonitown.eot');
+  src: url('../fonts/bodonitown.eot?') format('eot'),
+  url('../fonts/bodonitown.woff') format('woff'),
+  url('../fonts/Bodonitown.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Comfortaa';
+  background-image: url(../img/marilyn.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  background: black;
+  margin: auto;
+  padding: 10px;
+  width: 650px;
+  position: absolute;
+  border-radius: 15px;
+  top: 60px;
+}
+
+table {
+  border-spacing: 0.5rem;
+  border-collapse: collapse;
+  border: 1px solid black;
+  margin: 0 auto;
+  border-radius: 5px;
+
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+thead {
+  background: white;
+  color: #b32f2b;
+  border-radius: 5px;
+}
+
+.header {
+  overflow: hidden;
+  font-family: "Bodonitown";
+  text-align: center;
+}
+
+.movie-form {
+  width: 50%;
+  margin: auto;
+  color: #eae8e8;
+}
+
+.movie-sorter {
+  margin:  30px auto;
+  width: 50%;
+
+}
+
+.header h1 {
+  font-size: 3em;
+
+}
+
+h1 {
+  font-family: 'Satisfy';
+}
+
+p {
+  font-family: 'Comfortaa';
+}
+
+input {
+  border-radius: 5px;
+  border-style: solid;
+  border-width: thin;
+  padding: 5px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  width: 310px;
+}
+
+
+button {
+  border-color: #bb2d2d;
+  color: white;
+  border-style: none;
+  border-radius: 20px;
+  width: 80px;
+  padding: 5px 0;
+  margin-top: 20px;
+  background: #bb2d2d;
+}
